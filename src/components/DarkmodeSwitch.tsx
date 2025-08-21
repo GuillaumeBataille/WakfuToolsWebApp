@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import sunIcon from "../assets/sun-icon.svg";   // Pour passer en Light Mode
-import moonIcon from "../assets/moon-icon.svg"; // Pour passer en Dark Mode
+import sunIcon from "../assets/sun-icon.svg";   
+import moonIcon from "../assets/moon-icon.svg"; 
 
 export default function DarkModeSwitch() {
   const [dark, setDark] = useState(() => {

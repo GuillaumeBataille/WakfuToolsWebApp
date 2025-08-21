@@ -57,7 +57,7 @@ function effectiveCraftXp(baseXp: number, playerLevel: number, recipeLevel: numb
   return baseXp * factor;
 }
 
-// Choisit la meilleure recette disponible (max XP effective)
+// Meilleure recette disponible (max XP effective)
 function chooseBestRecipe(playerLevel: number, recipes: number[], baseXp: number) {
   const available = recipes.filter((r) => r <= playerLevel);
   if (available.length === 0) return null;

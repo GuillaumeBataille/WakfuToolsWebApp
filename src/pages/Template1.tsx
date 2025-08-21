@@ -7,13 +7,13 @@ export default function Template1() {
   const [targetLevel, setTargetLevel] = useState(100);
   const [mode, setMode] = useState<Mode>("normal");
 
-  // Résultats
+  //ArrayResults
   const [resources, setResources] = useState<Map<number, number>>(new Map());
   const [recipes, setRecipes] = useState<Map<number, { crafts: number; xp: number }>>(new Map());
   const [logs, setLogs] = useState<any[]>([]);
   const [totals, setTotals] = useState({ totalResources: 0, totalCrafts: 0, totalXp: 0 });
 
-  // --- Simulation (copier la logique JS existante et adapter un peu) ---
+  //Processing 
   const runSimulation = () => {
     const result = simulate({ startLevel, targetLevel, mode });
     if ((result as any).error) {
