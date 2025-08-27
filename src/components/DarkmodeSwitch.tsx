@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import sunIcon from "../assets/sun-icon.svg";   // Pour passer en Light Mode
-import moonIcon from "../assets/moon-icon.svg"; // Pour passer en Dark Mode
+import sunIcon from "../assets/sun-icon.svg?react";   
+import moonIcon from "../assets/moon-icon.svg?react"; 
+import ThemedIcon from "../components/ThemedIcon";
 
 export default function DarkModeSwitch() {
   const [dark, setDark] = useState(() => {
@@ -29,9 +30,8 @@ export default function DarkModeSwitch() {
       onClick={() => setDark(!dark)}
       className="p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition"
     >
-      <img
-        src={dark ? sunIcon : moonIcon}
-        alt={dark ? "Light mode" : "Dark mode"}
+      <ThemedIcon
+        Icon={dark ? sunIcon : moonIcon}
         className="w-6 h-6"
       />
     </button>
