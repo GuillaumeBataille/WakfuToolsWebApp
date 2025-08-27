@@ -103,7 +103,7 @@ export default function FeatureCenterXp() {
                           {resourcesForLevel.map((res: any) => (
                             <div key={res.itemId} className="flex items-center gap-5 text-sm">
                           <img
-                            src={"/WakfuToolsWebApp/WakfuData/${res.imagePath}"}
+                            src={`/WakfuToolsWebApp/WakfuData/${res.imagePath}`}
                             alt={res.itemName}
                             className="w-12 h-12"
                           />
