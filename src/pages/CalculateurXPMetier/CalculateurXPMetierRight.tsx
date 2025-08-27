@@ -13,7 +13,7 @@ console.log(selectedItem);
       
             {selectedItem.imagePath && (
             <img
-              src={`/WakfuData/${selectedItem.imagePath.replace(/\\/g, "/")}`}
+              src={`${selectedItem.imagePath}`}
               alt={selectedItem.itemName}
               className="w-24 h-24 inline-block mr-2"
             />
