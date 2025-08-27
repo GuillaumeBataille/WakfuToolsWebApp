@@ -10,7 +10,7 @@ type CalculateurXPMetierContextType = {
   selectedItem: any | null;
   setSelectedItem: (item: any | null) => void;
   selectedLocationsList: string[];
-  data: any | null; // données JSON chargées
+  data: any | null; // ajout du JSON chargé
 };
 
 const CalculateurXPMetierContext = createContext<CalculateurXPMetierContextType | undefined>(undefined);
@@ -23,12 +23,13 @@ export function CalculateurXPMetierProvider({ children }: { children: ReactNode 
   const [selectedLocationsList, setSelectedLocationsList] = useState<string[]>([]);
   const [data, setData] = useState<any | null>(null);
 
-    useEffect(() => {
-      fetch("/wakfutoolswebapp/WakfuData/data.json") // attention au nom du repo si site sur GitHub Pages
-        .then((res) => res.json())
-        .then(setData)
-        .catch((err) => console.error("Erreur lors du chargement des données :", err));
-    }, []);
+ 
+  useEffect(() => {
+    fetch("/wakfutoolswebapp/WakfuData/data.json")
+      .then((res) => res.json())
+      .then(setData)
+      .catch((err) => console.error("Erreur lors du chargement des données :", err));
+  }, []);
 
   const setSelectedItem = (item: any | null) => {
     setSelectedItemState(item);
@@ -51,7 +52,7 @@ export function CalculateurXPMetierProvider({ children }: { children: ReactNode 
         selectedItem,
         setSelectedItem,
         selectedLocationsList,
-        data,
+        data, // exposé dans le contexte
       }}
     >
       {children}
@@ -61,8 +62,6 @@ export function CalculateurXPMetierProvider({ children }: { children: ReactNode 
 
 export function useCalculateurXPMetier() {
   const context = useContext(CalculateurXPMetierContext);
-  if (!context) {
-    throw new Error("useCalculateurXPMetier must be used within CalculateurXPMetierProvider");
-  }
+  if (!context) throw new Error("useCalculateurXPMetier must be used within CalculateurXPMetierProvider");
   return context;
 }

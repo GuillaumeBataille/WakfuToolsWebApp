@@ -12,12 +12,12 @@ export default function FeatureCenterXp() {
 
 
   // Charger ton JSON depuis /public/WakfuData/data.json
-    useEffect(() => {
-      fetch("/wakfutoolswebapp/WakfuData/data.json") // attention au nom du repo si site sur GitHub Pages
-        .then((res) => res.json())
-        .then(setData)
-        .catch((err) => console.error("Erreur lors du chargement des données :", err));
-    }, []);
+  useEffect(() => {
+    fetch("/wakfutoolswebapp/WakfuData/data.json")
+      .then((res) => res.json())
+      .then(setData)
+      .catch((err) => console.error("Erreur chargement JSON:", err));
+  }, []);
 
   const paliers: (PalierXp & {
     craftsNeeded: number;
