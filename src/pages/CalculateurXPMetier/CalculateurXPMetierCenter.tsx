@@ -21,10 +21,6 @@ export default function FeatureCenterXp() {
     .catch((err) => console.error(err));
 }, []);*/
 
-useEffect(() => {
-  console.log("BASE_URL =", import.meta.env.BASE_URL);
-}, []);
-
   const paliers: (PalierXp & {
     craftsNeeded: number;
     resourcesNeeded: number;
@@ -107,21 +103,20 @@ useEffect(() => {
                           <span className="font-medium">Lvl {lvl}:</span>
                           {resourcesForLevel.map((res: any) => (
                             <div key={res.itemId} className="flex items-center gap-5 text-sm">
-                            <img
-                              src={encodeURI(`${import.meta.env.BASE_URL}WakfuData/${res.imagePath}`)}
-                              alt={res.itemName}
-                              className="w-12 h-12"
-                            />
-                            
-                            <span>{res.itemName}</span>
-                            {/* Bouton Emplacement */}
-                            <button
-                              onClick={() => setSelectedItem(res)}
-                              className="flex items-center justify-center w-10 h-10 rounded-md bg-washedwhite/10 transition-colors"
-                            >
-                              <span className="text-2xl">🗺️</span>
-                            </button>
-                          </div>
+                          <img
+                            src={encodeURI(`/WakfuToolsWebApp/WakfuData/${res.imagePath}`)}
+                            alt={res.itemName}
+                            className="w-12 h-12"
+                          />
+                          <span>{res.itemName}</span>
+                          {/* Bouton Emplacement */}
+                          <button
+                            onClick={() => setSelectedItem(res)}
+                            className="flex items-center justify-center w-10 h-10 rounded-md bg-washedwhite/10 transition-colors"
+                          >
+                            <span className="text-2xl">🗺️</span>
+                          </button>
+                        </div>
                           ))}
                         </div>
                       );
