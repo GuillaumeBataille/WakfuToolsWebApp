@@ -1,23 +1,25 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { generateLevelRows, LevelRow, PalierXp } from "../../utils/CalculateurXPMetierFunctions";
 import { useCalculateurXPMetier } from "../../contexts/CalculateurXPMetierContext";
+// Si ton JSON est dans `src/WakfuData/data.json`
+import dataJson from "../../../public/WakfuData/data.json";
  
 const RESOURCES_PER_CRAFT = 5;
 
 export default function FeatureCenterXp() {
   const { multiplier, metier, showDetails, selectedItem,setSelectedItem } = useCalculateurXPMetier();
-  const [data, setData] = useState<any>(null);
+  const [data, setData] = useState<any>(dataJson);
 
  
 
 
   // Charger ton JSON depuis /public/WakfuData/data.json
-useEffect(() => {
+/*useEffect(() => {
   fetch(import.meta.env.BASE_URL + "WakfuData/data.json")
     .then((res) => res.json())
     .then(setData)
     .catch((err) => console.error(err));
-}, []);
+}, []);*/
 
   const paliers: (PalierXp & {
     craftsNeeded: number;
