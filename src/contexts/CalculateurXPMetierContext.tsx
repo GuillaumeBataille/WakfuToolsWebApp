@@ -1,5 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode } from "react";
-import data from "../../public/WakfuData/data.json"; 
+import React, { createContext, useContext, useState, ReactNode, useEffect } from "react";
 
 type CalculateurXPMetierContextType = {
   multiplier: number;
@@ -11,6 +10,7 @@ type CalculateurXPMetierContextType = {
   selectedItem: any | null;
   setSelectedItem: (item: any | null) => void;
   selectedLocationsList: string[];
+  data: any | null; // ajout du JSON chargé
 };
 
 const CalculateurXPMetierContext = createContext<CalculateurXPMetierContextType | undefined>(undefined);
@@ -21,6 +21,15 @@ export function CalculateurXPMetierProvider({ children }: { children: ReactNode 
   const [showDetails, setShowDetails] = useState(false);
   const [selectedItem, setSelectedItemState] = useState<any | null>(null);
   const [selectedLocationsList, setSelectedLocationsList] = useState<string[]>([]);
+  const [data, setData] = useState<any | null>(null);
+
+ 
+  useEffect(() => {
+    fetch("/WakfuData/data.json")
+      .then((res) => res.json())
+      .then(setData)
+      .catch((err) => console.error("Erreur lors du chargement des données :", err));
+  }, []);
 
   const setSelectedItem = (item: any | null) => {
     setSelectedItemState(item);
@@ -42,7 +51,8 @@ export function CalculateurXPMetierProvider({ children }: { children: ReactNode 
         setShowDetails,
         selectedItem,
         setSelectedItem,
-        selectedLocationsList
+        selectedLocationsList,
+        data, // exposé dans le contexte
       }}
     >
       {children}
