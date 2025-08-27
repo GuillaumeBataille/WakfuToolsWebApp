@@ -23,20 +23,12 @@ export function CalculateurXPMetierProvider({ children }: { children: ReactNode 
   const [selectedLocationsList, setSelectedLocationsList] = useState<string[]>([]);
   const [data, setData] = useState<any | null>(null);
 
-  useEffect(() => {
-    const loadData = async () => {
-      try {
-        const res = await fetch(import.meta.env.BASE_URL + "WakfuData/data.json");
-        if (!res.ok) throw new Error(`Erreur HTTP ${res.status}`);
-        const json = await res.json();
-        setData(json);
-      } catch (err) {
-        console.error("Erreur lors du chargement des données :", err);
-      }
-    };
-
-    loadData();
-  }, []);
+    useEffect(() => {
+      fetch("/wakfutoolswebapp/WakfuData/data.json") // attention au nom du repo si site sur GitHub Pages
+        .then((res) => res.json())
+        .then(setData)
+        .catch((err) => console.error("Erreur lors du chargement des données :", err));
+    }, []);
 
   const setSelectedItem = (item: any | null) => {
     setSelectedItemState(item);
