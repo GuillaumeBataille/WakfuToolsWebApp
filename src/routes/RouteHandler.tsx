@@ -7,7 +7,7 @@ export default function RouteHandler() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/WakfuToolsWebApp" element={<Home/>} />
+      <Route path="/WakfuToolsWebApp/" element={<Home/>} />
       <Route path="/CalculateurXPMetier" element={<CalculateurXPMetier/>} />
     </Routes>
   );
