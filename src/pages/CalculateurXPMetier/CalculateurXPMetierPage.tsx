@@ -10,14 +10,16 @@ import CalculateurXPMetierRight from "./CalculateurXPMetierRight";
 
 const CalculateurXPMetierPage: React.FC = () => {
   return (
-    <CalculateurXPMetierProvider>
+    /*<CalculateurXPMetierProvider>
       <Layout
         top={<CalculateurXPMetierTop />}
         left={<CalculateurXPMetierLeft />}
         center={<CalculateurXPMetierCenter />}
         right={<CalculateurXPMetierRight />}
       />
-    </CalculateurXPMetierProvider>
+    </CalculateurXPMetierProvider>*/
+    <p>BASE_URL: {import.meta.env.BASE_URL}</p>
+
   );
 };
 

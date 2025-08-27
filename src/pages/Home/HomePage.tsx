@@ -15,6 +15,7 @@ const HomePage: React.FC = () => {
       center={<HomeCenter />}
       right={<HomeRight />}
     />
+    
   );
 };
 
