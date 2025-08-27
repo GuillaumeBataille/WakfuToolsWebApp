@@ -103,20 +103,20 @@ export default function FeatureCenterXp() {
                           <span className="font-medium">Lvl {lvl}:</span>
                           {resourcesForLevel.map((res: any) => (
                             <div key={res.itemId} className="flex items-center gap-5 text-sm">
-                              <img
-                                src={`/WakfuData/${res.imagePath}`}
-                                alt={res.itemName}
-                                className="w-12 h-12 "
-                              />
-                              <span>{res.itemName}</span>
-                               {/* Bouton "Emplacement" */}
+                            <img
+                              src={encodeURI(`/WakfuData/${res.imagePath}`)}
+                              alt={res.itemName}
+                              className="w-12 h-12"
+                            />
+                            <span>{res.itemName}</span>
+                            {/* Bouton Emplacement */}
                             <button
                               onClick={() => setSelectedItem(res)}
                               className="flex items-center justify-center w-10 h-10 rounded-md bg-washedwhite/10 transition-colors"
                             >
                               <span className="text-2xl">🗺️</span>
                             </button>
-                            </div>
+                          </div>
                           ))}
                         </div>
                       );
