@@ -21,6 +21,10 @@ export default function FeatureCenterXp() {
     .catch((err) => console.error(err));
 }, []);*/
 
+useEffect(() => {
+  console.log("BASE_URL =", import.meta.env.BASE_URL);
+}, []);
+
   const paliers: (PalierXp & {
     craftsNeeded: number;
     resourcesNeeded: number;
@@ -104,10 +108,11 @@ export default function FeatureCenterXp() {
                           {resourcesForLevel.map((res: any) => (
                             <div key={res.itemId} className="flex items-center gap-5 text-sm">
                             <img
-                              src={encodeURI(`/WakfuData/${res.imagePath}`)}
+                              src={encodeURI(`${import.meta.env.BASE_URL}WakfuData/${res.imagePath}`)}
                               alt={res.itemName}
                               className="w-12 h-12"
                             />
+                            
                             <span>{res.itemName}</span>
                             {/* Bouton Emplacement */}
                             <button
