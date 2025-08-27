@@ -1,0 +1,2005 @@
+{
+  "Mineur": {
+    "80": [
+      {
+        "itemId": 18128,
+        "itemName": "Or Noir",
+        "gfxId": 28118128,
+        "rarity": 1,
+        "imagePath": "Mineur\\80\\Or Noir.png",
+        "locations": [
+          "Erebora - Mine Néo-Sufokienne",
+          "Saharach - Fungopée"
+        ]
+      }
+    ],
+    "60": [
+      {
+        "itemId": 13180,
+        "itemName": "Korail",
+        "gfxId": 28119749,
+        "rarity": 1,
+        "imagePath": "Mineur\\60\\Korail.png",
+        "locations": [
+          "Mine de Sufokia - Galeries"
+        ]
+      }
+    ],
+    "75": [
+      {
+        "itemId": 18126,
+        "itemName": "Minerai des Sables",
+        "gfxId": 28118126,
+        "rarity": 1,
+        "imagePath": "Mineur\\75\\Minerai des Sables.png",
+        "locations": [
+          "Saharach"
+        ]
+      }
+    ],
+    "15": [
+      {
+        "itemId": 1851,
+        "itemName": "Minerai de Cuivre",
+        "gfxId": 3011851,
+        "rarity": 1,
+        "imagePath": "Mineur\\15\\Minerai de Cuivre.png"
+      }
+    ],
+    "110": [
+      {
+        "itemId": 19751,
+        "itemName": "Ambre",
+        "gfxId": 28119751,
+        "rarity": 1,
+        "imagePath": "Mineur\\110\\Ambre.png",
+        "locations": [
+          "Moon - Jungle de Moon",
+          "Plage de Moon"
+        ]
+      }
+    ],
+    "135": [
+      {
+        "itemId": 27865,
+        "itemName": "Zircon",
+        "gfxId": 28127865,
+        "rarity": 1,
+        "imagePath": "Mineur\\135\\Zircon.png",
+        "locations": [
+          "Royaume Chuchoku - Intérieur de Grampar",
+          "Osamosa - Aile Aride"
+        ]
+      }
+    ],
+    "155": [
+      {
+        "itemId": 31821,
+        "itemName": "Fragmonnite",
+        "gfxId": 28131821,
+        "rarity": 1,
+        "imagePath": "Mineur\\155\\Fragmonnite.png"
+      }
+    ],
+    "65": [
+      {
+        "itemId": 13182,
+        "itemName": "Minerai de Taroudium",
+        "gfxId": 28115928,
+        "rarity": 1,
+        "imagePath": "Mineur\\65\\Minerai de Taroudium.png",
+        "locations": [
+          "Château de Harebourg",
+          "Village Enseveli Enseveli",
+          "Île Sberg - Banquise"
+        ]
+      }
+    ],
+    "35": [
+      {
+        "itemId": 1848,
+        "itemName": "Quartz Détouré",
+        "gfxId": 28111485,
+        "rarity": 1,
+        "imagePath": "Mineur\\35\\Quartz Détouré.png",
+        "locations": [
+          "Domaine Sauvage",
+          "Mines de la Pandalousie",
+          "Royaume Sadida - Galeries des Gerbouilles"
+        ]
+      }
+    ],
+    "85": [
+      {
+        "itemId": 17490,
+        "itemName": "Minerai de Mythwil",
+        "gfxId": 30217490,
+        "rarity": 1,
+        "imagePath": "Mineur\\85\\Minerai de Mythwil.png",
+        "locations": [
+          "Île des Wabbits - Souterrains morbides"
+        ]
+      }
+    ],
+    "55": [
+      {
+        "itemId": 13178,
+        "itemName": "Améthyste Sanguine",
+        "gfxId": 3025461,
+        "rarity": 1,
+        "imagePath": "Mineur\\55\\Améthyste Sanguine.png",
+        "locations": [
+          "Astrub - Forêt d'Astrub",
+          "Île des Wabbits - Champs dévastés",
+          "Brakmar - Macheville",
+          "Zinit - Grotte Slek",
+          "Katrepat",
+          "Montagnes d'Astrub"
+        ]
+      }
+    ],
+    "45": [
+      {
+        "itemId": 11484,
+        "itemName": "Zinc Entier",
+        "gfxId": 28111484,
+        "rarity": 1,
+        "imagePath": "Mineur\\45\\Zinc Entier.png",
+        "locations": [
+          "Pandalousie - Mines de la Pandalousie"
+        ]
+      }
+    ],
+    "95": [
+      {
+        "itemId": 18485,
+        "itemName": "Titan Souverain",
+        "gfxId": 28113180,
+        "rarity": 1,
+        "imagePath": "Mineur\\95\\Titan Souverain.png",
+        "locations": [
+          "Royaume Chuchoku - Intérieur de Grampar",
+          "Mine de Bonta - Tréfonds"
+        ]
+      }
+    ],
+    "150": [
+      {
+        "itemId": 31819,
+        "itemName": "Zircomète",
+        "gfxId": 28131819,
+        "rarity": 1,
+        "imagePath": "Mineur\\150\\Zircomète.png"
+      }
+    ],
+    "30": [
+      {
+        "itemId": 11482,
+        "itemName": "Eclat de Silex",
+        "gfxId": 28111482,
+        "rarity": 1,
+        "imagePath": "Mineur\\30\\Eclat de Silex.png",
+        "locations": [
+          "Mine de Brâkmar - Galeries"
+        ]
+      }
+    ],
+    "115": [
+      {
+        "itemId": 20176,
+        "itemName": "Mercure",
+        "gfxId": 28120176,
+        "rarity": 1,
+        "imagePath": "Mineur\\115\\Mercure.png",
+        "locations": [
+          "Sous Terrains de l'Île de Moon",
+          "Moon - Plage de Moon"
+        ]
+      }
+    ],
+    "140": [
+      {
+        "itemId": 28756,
+        "itemName": "Pierre de Vide",
+        "gfxId": 28128756,
+        "rarity": 1,
+        "imagePath": "Mineur\\140\\Pierre de Vide.png",
+        "locations": [
+          "Shukrute - Spirale du Vide",
+          "Ereboria - Prison maritime"
+        ]
+      }
+    ],
+    "0": [
+      {
+        "itemId": 1846,
+        "itemName": "Minerai de Fer",
+        "gfxId": 3011846,
+        "rarity": 1,
+        "imagePath": "Mineur\\0\\Minerai de Fer.png",
+        "locations": [
+          "Plaines d'Astrub",
+          "Egouts d'Astrub"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "itemId": 2355,
+        "itemName": "Fleur de Sel",
+        "gfxId": 3962355,
+        "rarity": 1,
+        "imagePath": "Mineur\\5\\Fleur de Sel.png",
+        "locations": [
+          "Champs d'Astrub"
+        ]
+      }
+    ],
+    "125": [
+      {
+        "itemId": 22074,
+        "itemName": "Minerai d'Obsidienne",
+        "gfxId": 28119176,
+        "rarity": 1,
+        "imagePath": "Mineur\\125\\Minerai d'Obsidienne.png",
+        "locations": [
+          "Zinit - Grotte du Dor’Mor Zinit",
+          "Sommet (Dragoeufs)"
+        ]
+      }
+    ],
+    "50": [
+      {
+        "itemId": 1856,
+        "itemName": "Bauxit Royal",
+        "gfxId": 28113178,
+        "rarity": 1,
+        "imagePath": "Mineur\\50\\Bauxit Royal.png",
+        "locations": [
+          "Mine de Bonta - Galeries"
+        ]
+      }
+    ],
+    "105": [
+      {
+        "itemId": 19749,
+        "itemName": "Carbone Obscur",
+        "gfxId": 28111483,
+        "rarity": 1,
+        "imagePath": "Mineur\\105\\Carbone Obscur.png",
+        "locations": [
+          "Mine de Brâkmar - Tréfonds",
+          "Royaume Sadida - Galeries des Gerbouilles"
+        ]
+      }
+    ],
+    "10": [
+      {
+        "itemId": 11479,
+        "itemName": "Charbon Antique",
+        "gfxId": 28111479,
+        "rarity": 1,
+        "imagePath": "Mineur\\10\\Charbon Antique.png",
+        "locations": [
+          "Montagnes d'Astrub"
+        ]
+      }
+    ],
+    "20": [
+      {
+        "itemId": 11480,
+        "itemName": "Cobalt Ombreux",
+        "gfxId": 28111480,
+        "rarity": 1,
+        "imagePath": "Mineur\\20\\Cobalt Ombreux.png",
+        "locations": [
+          "Mine d'Astrub"
+        ]
+      }
+    ],
+    "120": [
+      {
+        "itemId": 22072,
+        "itemName": "Minerai Veuf-Argent",
+        "gfxId": 2811856,
+        "rarity": 1,
+        "imagePath": "Mineur\\120\\Minerai Veuf-Argent.png",
+        "locations": [
+          "Sommet",
+          "Zinit - Haut Flanc (Sbires de Kali)",
+          "Haut Flanc (Blérox)"
+        ]
+      }
+    ],
+    "100": [
+      {
+        "itemId": 19177,
+        "itemName": "Minerai de Sryanur",
+        "gfxId": 28118484,
+        "rarity": 1,
+        "imagePath": "Mineur\\100\\Minerai de Sryanur.png",
+        "locations": [
+          "Mine d'Amakna - Tréfonds"
+        ]
+      }
+    ],
+    "130": [
+      {
+        "itemId": 27863,
+        "itemName": "Grenat glacé",
+        "gfxId": 28127863,
+        "rarity": 1,
+        "imagePath": "Mineur\\130\\Grenat glacé.png",
+        "locations": [
+          "Osamosa - Aile Glaciaire",
+          "Royaume Chuchoku - Banquise des Mansots"
+        ]
+      }
+    ],
+    "145": [
+      {
+        "itemId": 28758,
+        "itemName": "Pierre symbiotique",
+        "gfxId": 28128758,
+        "rarity": 1,
+        "imagePath": "Mineur\\145\\Pierre symbiotique.png",
+        "locations": [
+          "Shukrute - Route des Morts"
+        ]
+      }
+    ],
+    "40": [
+      {
+        "itemId": 11485,
+        "itemName": "Kroum Funeste",
+        "gfxId": 28113182,
+        "rarity": 1,
+        "imagePath": "Mineur\\40\\Kroum Funeste.png",
+        "locations": [
+          "Île aux Moines",
+          "Pics de Kelba"
+        ]
+      }
+    ],
+    "25": [
+      {
+        "itemId": 11481,
+        "itemName": "Pépite de Bronze",
+        "gfxId": 28111481,
+        "rarity": 1,
+        "imagePath": "Mineur\\25\\Pépite de Bronze.png",
+        "locations": [
+          "Mine d'Amakna - Galeries"
+        ]
+      }
+    ],
+    "70": [
+      {
+        "itemId": 5474,
+        "itemName": "Minerai de Plomb Brumeux",
+        "gfxId": 2811853,
+        "rarity": 1,
+        "imagePath": "Mineur\\70\\Minerai de Plomb Brumeux.png",
+        "locations": [
+          "Source de Wakfu",
+          "Astrub - Source de Stasis",
+          "Zinit - Bas Flanc",
+          "Montagnes d'Astrub"
+        ]
+      }
+    ],
+    "90": [
+      {
+        "itemId": 18483,
+        "itemName": "Pierre de Saphir Double-éclat",
+        "gfxId": 3025474,
+        "rarity": 1,
+        "imagePath": "Mineur\\90\\Pierre de Saphir Double-éclat.png",
+        "locations": [
+          "Royaume Chuchoku - Banquise des Mansots",
+          "Mine de Sufokia - Tréfonds"
+        ]
+      }
+    ]
+  },
+  "Forestier": {
+    "135": [
+      {
+        "itemId": 27849,
+        "itemName": "Bois d'Algue torsade",
+        "gfxId": 30627849,
+        "rarity": 1,
+        "imagePath": "Forestier\\135\\Bois d'Algue torsade.png",
+        "locations": [
+          "Osamosa - Rivage Caudal",
+          "Ereboria - Prison maritime"
+        ]
+      }
+    ],
+    "125": [
+      {
+        "itemId": 22057,
+        "itemName": "Bois de Ronce",
+        "gfxId": 2754455,
+        "rarity": 1,
+        "imagePath": "Forestier\\125\\Bois de Ronce.png",
+        "locations": [
+          "Ereboria - Plage maudite",
+          "Zinit - Grotte du Dor'Mor"
+        ]
+      }
+    ],
+    "60": [
+      {
+        "itemId": 13096,
+        "itemName": "Bois Grimpant",
+        "gfxId": 30620181,
+        "rarity": 1,
+        "imagePath": "Forestier\\60\\Bois Grimpant.png",
+        "locations": [
+          "Bilbyza",
+          "Sufokia - Montagne des Flaqueux"
+        ]
+      }
+    ],
+    "100": [
+      {
+        "itemId": 19167,
+        "itemName": "Bois Sec",
+        "gfxId": 27510009,
+        "rarity": 1,
+        "imagePath": "Forestier\\100\\Bois Sec.png",
+        "locations": [
+          "Zinit - Haut Flanc (Sbires de Kali)"
+        ]
+      }
+    ],
+    "140": [
+      {
+        "itemId": 28739,
+        "itemName": "Bois de Désespoirbre",
+        "gfxId": 30628739,
+        "rarity": 1,
+        "imagePath": "Forestier\\140\\Bois de Désespoirbre.png",
+        "locations": [
+          "Shukrute - Royaume du Désespoir"
+        ]
+      }
+    ],
+    "10": [
+      {
+        "itemId": 11440,
+        "itemName": "Bois de Châtaignier",
+        "gfxId": 30611440,
+        "rarity": 1,
+        "imagePath": "Forestier\\10\\Bois de Châtaignier.png",
+        "locations": [
+          "Astrub - Forêt d'Astrub"
+        ]
+      }
+    ],
+    "130": [
+      {
+        "itemId": 27846,
+        "itemName": "Bois de Carya",
+        "gfxId": 30627846,
+        "rarity": 1,
+        "imagePath": "Forestier\\130\\Bois de Carya.png",
+        "locations": [
+          "Osamosa - Forêt Dorsale"
+        ]
+      }
+    ],
+    "25": [
+      {
+        "itemId": 10009,
+        "itemName": "Bois de Boabob",
+        "gfxId": 30622350,
+        "rarity": 1,
+        "imagePath": "Forestier\\25\\Bois de Boabob.png",
+        "locations": [
+          "Amakna - Champs qui Chantent"
+        ]
+      }
+    ],
+    "40": [
+      {
+        "itemId": 10737,
+        "itemName": "Bois de Sequoiu",
+        "gfxId": 27510737,
+        "rarity": 1,
+        "imagePath": "Forestier\\40\\Bois de Sequoiu.png",
+        "locations": [
+          "Royaume Sadida - Colline Entoilée"
+        ]
+      }
+    ],
+    "80": [
+      {
+        "itemId": 18111,
+        "itemName": "Bois de Myscandelle",
+        "gfxId": 27518111,
+        "rarity": 1,
+        "imagePath": "Forestier\\80\\Bois de Myscandelle.png",
+        "locations": [
+          "Saharach - Fungopée"
+        ]
+      }
+    ],
+    "70": [
+      {
+        "itemId": 13110,
+        "itemName": "Bois d'If",
+        "gfxId": 27513110,
+        "rarity": 1,
+        "imagePath": "Forestier\\70\\Bois d'If.png",
+        "locations": [
+          "Zinit - Bas Flanc",
+          "Royaume Chuchoku - Toundra"
+        ]
+      }
+    ],
+    "15": [
+      {
+        "itemId": 1718,
+        "itemName": "Bois de Pommier",
+        "gfxId": 2011718,
+        "rarity": 1,
+        "imagePath": "Forestier\\15\\Bois de Pommier.png",
+        "locations": [
+          "Astrub - Montagnes d'Astrub",
+          "Sufokia - Montagne des Flaqueux"
+        ]
+      }
+    ],
+    "145": [
+      {
+        "itemId": 28742,
+        "itemName": "Bois de Non-hêtre",
+        "gfxId": 30628742,
+        "rarity": 1,
+        "imagePath": "Forestier\\145\\Bois de Non-hêtre.png",
+        "locations": [
+          "Shukrute - Démentia"
+        ]
+      }
+    ],
+    "105": [
+      {
+        "itemId": 20181,
+        "itemName": "Bois de Cerisier",
+        "gfxId": 30611445,
+        "rarity": 1,
+        "imagePath": "Forestier\\105\\Bois de Cerisier.png",
+        "locations": [
+          "Bonta - Fourré de Tonkult",
+          "Île des Wabbits - Territoire Lenald"
+        ]
+      }
+    ],
+    "20": [
+      {
+        "itemId": 1719,
+        "itemName": "Bois de Bouleau",
+        "gfxId": 2751719,
+        "rarity": 1,
+        "imagePath": "Forestier\\20\\Bois de Bouleau.png",
+        "locations": [
+          "Amakna - Champs qui Chantent"
+        ]
+      }
+    ],
+    "35": [
+      {
+        "itemId": 10431,
+        "itemName": "Bois de Bananagrumier",
+        "gfxId": 2756162,
+        "rarity": 1,
+        "imagePath": "Forestier\\35\\Bois de Bananagrumier.png",
+        "locations": [
+          "Sufokia - Dune Kane",
+          "Ereboria - Plage des pirates"
+        ]
+      }
+    ],
+    "150": [
+      {
+        "itemId": 31830,
+        "itemName": "Astracacia",
+        "gfxId": 30631830,
+        "rarity": 1,
+        "imagePath": "Forestier\\150\\Astracacia.png"
+      }
+    ],
+    "90": [
+      {
+        "itemId": 18467,
+        "itemName": "Bois de Sureau",
+        "gfxId": 30618467,
+        "rarity": 1,
+        "imagePath": "Forestier\\90\\Bois de Sureau.png",
+        "locations":["Brakmar - Macheville","Ile des wabbits - Champs dévastés"]
+      }
+    ],
+    "115": [
+      {
+        "itemId": 19754,
+        "itemName": "Bois de Kokotier",
+        "gfxId": 30619754,
+        "rarity": 1,
+        "imagePath": "Forestier\\115\\Bois de Kokotier.png",
+        "locations": [
+          "Moon - Jungle de Moon",
+          "Plage de Moon"
+        ]
+      }
+    ],
+    "120": [
+      {
+        "itemId": 22054,
+        "itemName": "Bois d'Acajou",
+        "gfxId": 27513106,
+        "rarity": 1,
+        "imagePath": "Forestier\\120\\Bois d'Acajou.png",
+        "locations": [
+          "Zinit - Haut Flanc (Blérox)",
+          "Royaume Chuchoku - Chuchoplaine"
+        ]
+      }
+    ],
+    "75": [
+      {
+        "itemId": 18107,
+        "itemName": "Bois Piquant",
+        "gfxId": 27518107,
+        "rarity": 1,
+        "imagePath": "Forestier\\75\\Bois Piquant.png",
+        "locations":["Saharach","Ile des wabbits - Cawotte ensablée"]
+      }
+    ],
+    "65": [
+      {
+        "itemId": 13098,
+        "itemName": "Bois gelé",
+        "gfxId": 25715957,
+        "rarity": 1,
+        "imagePath": "Forestier\\65\\Bois gelé.png",
+        "locations": [
+          "Île Sberg"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "itemId": 1732,
+        "itemName": "Bois de Noisetier",
+        "gfxId": 2751732,
+        "rarity": 1,
+        "imagePath": "Forestier\\5\\Bois de Noisetier.png",
+        "locations": [
+          "Champs d'Astrub",
+          "Forêt d'Astrub",
+          "Astrub - Cité d'Astrub",
+          "Plaines d'Astrub"
+        ]
+      }
+    ],
+    "155": [
+      {
+        "itemId": 31833,
+        "itemName": "Luzyl",
+        "gfxId": 30631833,
+        "rarity": 1,
+        "imagePath": "Forestier\\155\\Luzyl.png"
+      }
+    ],
+    "85": [
+      {
+        "itemId": 13114,
+        "itemName": "Bois de Belgamète",
+        "gfxId": 27513114,
+        "rarity": 1,
+        "imagePath": "Forestier\\85\\Bois de Belgamète.png",
+        "locations": [
+          "Île des Wabbits - Territoire Wabbit"
+        ]
+      }
+    ],
+    "0": [
+      {
+        "itemId": 1723,
+        "itemName": "Bois de Frêne",
+        "gfxId": 2751723,
+        "rarity": 1,
+        "imagePath": "Forestier\\0\\Bois de Frêne.png",
+        "locations": [
+          "Plaines d'Astrub",
+          "Tainela",
+          "Astrub - Cité d'Astrub",
+          "Hameau des Pécheurs",
+          "Champs d'Astrub"
+        ]
+      }
+    ],
+    "30": [
+      {
+        "itemId": 8172,
+        "itemName": "Bois de Saule pleureur",
+        "gfxId": 3068172,
+        "rarity": 1,
+        "imagePath": "Forestier\\30\\Bois de Saule pleureur.png",
+        "locations": [
+          "Domaine Sauvage",
+          "Amakna - Forêt d'Emelka",
+          "Zinit - Plage Sauvage"
+        ]
+      }
+    ],
+    "95": [
+      {
+        "itemId": 18469,
+        "itemName": "Bois Sylvestre",
+        "gfxId": 2755426,
+        "rarity": 1,
+        "imagePath": "Forestier\\95\\Bois Sylvestre.png",
+        "locations": [
+          "Bonta - Fourré de Tonkult",
+          "Royaume Sadida - Clairière des Mulous"
+        ]
+      }
+    ],
+    "45": [
+      {
+        "itemId": 5426,
+        "itemName": "Bois de Pouplier",
+        "gfxId": 27513096,
+        "rarity": 1,
+        "imagePath": "Forestier\\45\\Bois de Pouplier.png",
+        "locations": [
+          "Bonta - Plaines de Cania",
+          "Kelba",
+          "Île aux Moines"
+        ]
+      }
+    ],
+    "110": [
+      {
+        "itemId": 19757,
+        "itemName": "Bois de Divi Divi",
+        "gfxId": 30619757,
+        "rarity": 1,
+        "imagePath": "Forestier\\110\\Bois de Divi Divi.png",
+        "locations": [
+          "Sous Terrains de l'île de Moon",
+          "Moon - Plage de Moon"
+        ]
+      }
+    ],
+    "50": [
+      {
+        "itemId": 6162,
+        "itemName": "Bois de Charme",
+        "gfxId": 27513098,
+        "rarity": 1,
+        "imagePath": "Forestier\\50\\Bois de Charme.png",
+        "locations": [
+          "Brakmar - Champs Pabong"
+        ]
+      }
+    ],
+    "55": [
+      {
+        "itemId": 12004,
+        "itemName": "Bois Têtard",
+        "gfxId": 30612004,
+        "rarity": 1,
+        "imagePath": "Forestier\\55\\Bois Têtard.png",
+        "locations": [
+          "Katrepat"
+        ]
+      }
+    ]
+  },
+  "Herboriste": {
+    "0": [
+      {
+        "itemId": 2504,
+        "itemName": "Chardon Couronné",
+        "gfxId": 2792504,
+        "rarity": 1,
+        "imagePath": "Herboriste\\0\\Chardon Couronné.png",
+        "locations": [
+          "Astrub - Champs d'Astrub",
+          "Plaines d'Astrub"
+        ]
+      }
+    ],
+    "50": [
+      {
+        "itemId": 10958,
+        "itemName": "Fleur de Rhodon",
+        "gfxId": 31311458,
+        "rarity": 1,
+        "imagePath": "Herboriste\\50\\Fleur de Rhodon.png",
+        "locations": [
+          "Brâkmar - Champs Pabong"
+        ]
+      }
+    ],
+    "60": [
+      {
+        "itemId": 13147,
+        "itemName": "Fleur de Croton",
+        "gfxId": 27913147,
+        "rarity": 1,
+        "imagePath": "Herboriste\\60\\Fleur de Croton.png",
+        "locations": [
+          "Sufokia - Montagne des Flaqueux",
+          "Royaume Chuchoku - Chuchoplaine",
+          "Amakna - Plaine des Riktus"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "itemId": 11451,
+        "itemName": "Fleur d'Irisse",
+        "gfxId": 31311451,
+        "rarity": 1,
+        "imagePath": "Herboriste\\5\\Fleur d'Irisse.png",
+        "locations": [
+          "Astrub - Plaines d'Astrub"
+        ]
+      }
+    ],
+    "145": [
+      {
+        "itemId": 28754,
+        "itemName": "Chardominateur",
+        "gfxId": 31328754,
+        "rarity": 1,
+        "imagePath": "Herboriste\\145\\Chardominateur.png",
+        "locations": [
+          "Shukrute - Route des Morts"
+        ]
+      }
+    ],
+    "25": [
+      {
+        "itemId": 9270,
+        "itemName": "Fleur d'Orchidée",
+        "gfxId": 31311455,
+        "rarity": 1,
+        "imagePath": "Herboriste\\25\\Fleur d'Orchidée.png",
+        "locations": [
+          "Royaume Chuchoku - Chuchoplaine",
+          "Royaume Sadida - Colline Entoilée",
+          "Amakna - Forêt d'Emelka"
+        ]
+      }
+    ],
+    "105": [
+      {
+        "itemId": 20184,
+        "itemName": "Amanite",
+        "gfxId": 27913151,
+        "rarity": 1,
+        "imagePath": "Herboriste\\105\\Amanite.png",
+        "locations": [
+          "Bonta - Mine de Bonta",
+          "Montagnes d'Astrub"
+        ]
+      }
+    ],
+    "20": [
+      {
+        "itemId": 5440,
+        "itemName": "Trèfle Parfumé",
+        "gfxId": 2785440,
+        "rarity": 1,
+        "imagePath": "Herboriste\\20\\Trèfle Parfumé.png",
+        "locations": [
+          "Amakna - Forêt d'Emelka"
+        ]
+      }
+    ],
+    "55": [
+      {
+        "itemId": 13140,
+        "itemName": "Pied de Boufton",
+        "gfxId": 3113474,
+        "rarity": 1,
+        "imagePath": "Herboriste\\55\\Pied de Boufton.png",
+        "locations": [
+          "Brâkmar - Landes de Sidimote",
+          "Katrepat"
+        ]
+      }
+    ],
+    "65": [
+      {
+        "itemId": 13144,
+        "itemName": "Edelweiss",
+        "gfxId": 27913144,
+        "rarity": 1,
+        "imagePath": "Herboriste\\65\\Edelweiss.png",
+        "locations": [
+          "Pandalousie - Sommet des Mille Brumes",
+          "Royaume Chuchoku - Chuchoplaine",
+          "Amakna - Plaine des Riktus"
+        ]
+      }
+    ],
+    "140": [
+      {
+        "itemId": 28751,
+        "itemName": "Galinsoga démoniaque",
+        "gfxId": 31328751,
+        "rarity": 1,
+        "imagePath": "Herboriste\\140\\Galinsoga démoniaque.png",
+        "locations": [
+          "Shukrute - Royaume du Désespoir"
+        ]
+      }
+    ],
+    "155": [
+      {
+        "itemId": 31827,
+        "itemName": "Rozen",
+        "gfxId": 31331827,
+        "rarity": 1,
+        "imagePath": "Herboriste\\155\\Rozen.png"
+      }
+    ],
+    "45": [
+      {
+        "itemId": 4443,
+        "itemName": "Tige de Roseau",
+        "gfxId": 3139270,
+        "rarity": 1,
+        "imagePath": "Herboriste\\45\\Tige de Roseau.png",
+        "locations": [
+          "Zinit - Plage Sauvage",
+          "Pandalousie - Marais Salé"
+        ]
+      }
+    ],
+    "135": [
+      {
+        "itemId": 27861,
+        "itemName": "Fleur-flocon",
+        "gfxId": 31327861,
+        "rarity": 1,
+        "imagePath": "Herboriste\\135\\Fleur-flocon.png",
+        "locations": [
+          "Osamosa - Aile Glaciaire",
+          "Royaume Chuchoku - Banquise des Mansots"
+        ]
+      }
+    ],
+    "15": [
+      {
+        "itemId": 11454,
+        "itemName": "Feuille de Menthe",
+        "gfxId": 31311454,
+        "rarity": 1,
+        "imagePath": "Herboriste\\15\\Feuille de Menthe.png",
+        "locations":["Astrub - Forêt d'Astrub"]
+      }
+    ],
+    "75": [
+      {
+        "itemId": 18121,
+        "itemName": "Feuille d'Aloa Vero",
+        "gfxId": 31318121,
+        "rarity": 1,
+        "imagePath": "Herboriste\\75\\Feuille d'Aloa Vero.png",
+        "locations": [
+          "Île des Wabbits - Cawotte ensablée",
+          "Saharach"
+        ]
+      }
+    ],
+    "150": [
+      {
+        "itemId": 31824,
+        "itemName": "Primaniola",
+        "gfxId": 31331824,
+        "rarity": 1,
+        "imagePath": "Herboriste\\150\\Primaniola.png"
+      }
+    ],
+    "35": [
+      {
+        "itemId": 11458,
+        "itemName": "Algue Narine",
+        "gfxId": 2785446,
+        "rarity": 1,
+        "imagePath": "Herboriste\\35\\Algue Narine.png",
+        "locations": [
+          "Sufokia - Dune Kane"
+        ]
+      }
+    ],
+    "100": [
+      {
+        "itemId": 18473,
+        "itemName": "Eter",
+        "gfxId": 31319171,
+        "rarity": 1,
+        "imagePath": "Herboriste\\100\\Eter.png",
+        "locations": [
+          "Amakna - Mine d'Amakna"
+        ]
+      }
+    ],
+    "70": [
+      {
+        "itemId": 1783,
+        "itemName": "Boolet",
+        "gfxId": 31313140,
+        "rarity": 1,
+        "imagePath": "Herboriste\\70\\Boolet.png",
+        "locations": [
+          "Zinit - Bas Flanc"
+        ]
+      }
+    ],
+    "130": [
+      {
+        "itemId": 27858,
+        "itemName": "Delphes Hiniom",
+        "gfxId": 31327858,
+        "rarity": 1,
+        "imagePath": "Herboriste\\130\\Delphes Hiniom.png",
+        "locations": [
+          "Osamosa - Forêt Dorsale",
+          "Royaume Chuchoku - Chuchoplaine"
+        ]
+      }
+    ],
+    "40": [
+      {
+        "itemId": 1832,
+        "itemName": "Baie de Gargousier",
+        "gfxId": 2791783,
+        "rarity": 1,
+        "imagePath": "Herboriste\\40\\Baie de Gargousier.png",
+        "locations": [
+          "Bonta - Plaines de Cania",
+          "Kelba"
+        ]
+      }
+    ],
+    "125": [
+      {
+        "itemId": 22066,
+        "itemName": "Moumousse",
+        "gfxId": 31320184,
+        "rarity": 1,
+        "imagePath": "Herboriste\\125\\Moumousse.png",
+        "locations": [
+          "Royaume Chuchoku - Intérieur de Grampar",
+          "Haut Flanc - Blérox (Zinit)",
+          "Pandalousie - Cimetière"
+        ]
+      }
+    ],
+    "115": [
+      {
+        "itemId": 19774,
+        "itemName": "Grâce du jour",
+        "gfxId": 31319774,
+        "rarity": 1,
+        "imagePath": "Herboriste\\115\\Grâce du jour.png",
+        "locations": [
+          "Moon - Jungle de Moon"
+        ]
+      }
+    ],
+    "90": [
+      {
+        "itemId": 18474,
+        "itemName": "Fleur de Kamamille",
+        "gfxId": 31318474,
+        "rarity": 1,
+        "imagePath": "Herboriste\\90\\Fleur de Kamamille.png",
+        "locations": [
+          "Bonta - Fourré de Tonkult"
+        ]
+      }
+    ],
+    "110": [
+      {
+        "itemId": 19771,
+        "itemName": "Fleur de Tahitiarée",
+        "gfxId": 31319771,
+        "rarity": 1,
+        "imagePath": "Herboriste\\110\\Fleur de Tahitiarée.png",
+        "locations": [
+          "Moon - Jungle de Moon"
+        ]
+      }
+    ],
+    "95": [
+      {
+        "itemId": 19171,
+        "itemName": "Pulsatile Soufrée",
+        "gfxId": 27810958,
+        "rarity": 1,
+        "imagePath": "Herboriste\\95\\Pulsatile Soufrée.png",
+        "locations": [
+          "Amakna - Mine d'Amakna",
+          "Brâkmar - Macheville"
+        ]
+      }
+    ],
+    "10": [
+      {
+        "itemId": 4441,
+        "itemName": "Fleur de Lin",
+        "gfxId": 2794441,
+        "rarity": 1,
+        "imagePath": "Herboriste\\10\\Fleur de Lin.png",
+        "locations": [
+          "Astrub - Tainela"
+        ]
+      }
+    ],
+    "80": [
+      {
+        "itemId": 18122,
+        "itemName": "Piège de Dionée",
+        "gfxId": 31318122,
+        "rarity": 1,
+        "imagePath": "Herboriste\\80\\Piège de Dionée.png",
+        "locations": [
+          "Saharach - Fungopée"
+        ]
+      }
+    ],
+    "120": [
+      {
+        "itemId": 22069,
+        "itemName": "Feuille d'Ortie",
+        "gfxId": 2781832,
+        "rarity": 1,
+        "imagePath": "Herboriste\\120\\Feuille d'Ortie.png",
+        "locations": [
+          "Zinit - Sommet (Ethernels)",
+          "Royaume Sadida - Clairière des Mulous",
+          "Zinit - Haut Flanc (Sbires de Kali)"
+        ]
+      }
+    ],
+    "85": [
+      {
+        "itemId": 13151,
+        "itemName": "Clou de Gifle",
+        "gfxId": 31318473,
+        "rarity": 1,
+        "imagePath": "Herboriste\\85\\Clou de Gifle.png",
+        "locations":["Bonta - Fourré de Tonkult","Ile des wabbits"]
+      }
+    ],
+    "30": [
+      {
+        "itemId": 11455,
+        "itemName": "Feuille de Fougère Duvet",
+        "gfxId": 2784443,
+        "rarity": 1,
+        "imagePath": "Herboriste\\30\\Feuille de Fougère Duvet.png",
+        "locations": [
+          "Domaine Sauvage"
+        ]
+      }
+    ]
+  },
+  "Pêcheur": {
+    "35": [
+      {
+        "itemId": 8110,
+        "itemName": "Salamon",
+        "gfxId": 3088110,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\35\\Salamon.png",
+        "locations": [
+          "Domaine Sauvage",
+          "Zinit - Plage Sauvage"
+        ]
+      }
+    ],
+    "65": [
+      {
+        "itemId": 13194,
+        "itemName": "Pipocampe",
+        "gfxId": 30813194,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\65\\Pipocampe.png",
+        "locations": [
+          "Royaume de Chuchoku - Intérieur de Grampar"
+        ]
+      }
+    ],
+    "80": [
+      {
+        "itemId": 18132,
+        "itemName": "Planctoi",
+        "gfxId": 30818132,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\80\\Planctoi.png",
+        "locations": [
+          "Saharach - Fungopée",
+          "Île des Wabbits - Territoire Lenald"
+        ]
+      }
+    ],
+    "0": [
+      {
+        "itemId": 8105,
+        "itemName": "Poisson Pané",
+        "gfxId": 3088105,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\0\\Poisson Pané.png",
+        "locations": [
+          "Astrub - Cité d'Astrub",
+          "Hameau des Pécheurs"
+        ]
+      }
+    ],
+    "85": [
+      {
+        "itemId": 13198,
+        "itemName": "Piraniania",
+        "gfxId": 30813198,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\85\\Piraniania.png",
+        "locations": [
+          "Bonta - Fourré de Tonkult",
+          "Île des Wabbits - Champs dévastés"
+        ]
+      }
+    ],
+    "135": [
+      {
+        "itemId": 27869,
+        "itemName": "Huître",
+        "gfxId": 30827869,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\135\\Huître.png",
+        "locations": [
+          "Royaume Chuchoku - Banquise des Mansots",
+          "Osamosa - Rivage Caudal"
+        ]
+      }
+    ],
+    "70": [
+      {
+        "itemId": 13196,
+        "itemName": "Anguille",
+        "gfxId": 3088112,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\70\\Anguille.png",
+        "locations": [
+          "Sufokia - Montagne des Flaqueux",
+          "Zinit - Bas Flanc"
+        ]
+      }
+    ],
+    "90": [
+      {
+        "itemId": 18487,
+        "itemName": "Truithon",
+        "gfxId": 3088111,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\90\\Truithon.png",
+        "locations": [
+          "Brakmar - Macheville"
+        ]
+      }
+    ],
+    "155": [
+      {
+        "itemId": 31811,
+        "itemName": "Poissélène",
+        "gfxId": 30831811,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\155\\Poissélène.png"
+      }
+    ],
+    "15": [
+      {
+        "itemId": 8107,
+        "itemName": "Anchois Grogneur",
+        "gfxId": 3088107,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\15\\Anchois Grogneur.png",
+        "locations": [
+          "Astrub - Forêt d'Astrub"
+        ]
+      }
+    ],
+    "95": [
+      {
+        "itemId": 18489,
+        "itemName": "Requin Marteau",
+        "gfxId": 3088114,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\95\\Requin Marteau.png",
+        "locations": [
+          "Amakna - Zone Maritime",
+          "Sufokia - Zone Maritime"
+        ]
+      }
+    ],
+    "115": [
+      {
+        "itemId": 19761,
+        "itemName": "Caïman nain",
+        "gfxId": 30819761,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\115\\Caïman nain.png",
+        "locations": [
+          "Moon - Jungle de Moon"
+        ]
+      }
+    ],
+    "30": [
+      {
+        "itemId": 8108,
+        "itemName": "Raie Velue",
+        "gfxId": 3088108,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\30\\Raie Velue.png",
+        "locations": [
+          "Sufokia - Dune Kane",
+          "Royaume Sadida - Colline Entoilée"
+        ]
+      }
+    ],
+    "50": [
+      {
+        "itemId": 8112,
+        "itemName": "Dragocarpe",
+        "gfxId": 3088115,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\50\\Dragocarpe.png",
+        "locations": [
+          "Brakmar - Champs Pabong"
+        ]
+      }
+    ],
+    "60": [
+      {
+        "itemId": 13190,
+        "itemName": "Egreuvisse",
+        "gfxId": 30813190,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\60\\Egreuvisse.png",
+        "locations": [
+          "Ereboria - Caverne des Marteaux-Aigris",
+          "Amakna - Plaine des Riktus"
+        ]
+      }
+    ],
+    "40": [
+      {
+        "itemId": 8111,
+        "itemName": "Poisson Lune",
+        "gfxId": 30813196,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\40\\Poisson Lune.png",
+        "locations": [
+          "Landes de Kelba",
+          "Île aux Moines"
+        ]
+      }
+    ],
+    "55": [
+      {
+        "itemId": 13188,
+        "itemName": "Poisson Zobal",
+        "gfxId": 30813188,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\55\\Poisson Zobal.png",
+        "locations": [
+          "Bilbyza"
+        ]
+      }
+    ],
+    "145": [
+      {
+        "itemId": 28762,
+        "itemName": "Trompeur",
+        "gfxId": 30828762,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\145\\Trompeur.png",
+        "locations": [
+          "Shukrute - Route des Morts"
+        ]
+      }
+    ],
+    "150": [
+      {
+        "itemId": 31809,
+        "itemName": "Beaussu",
+        "gfxId": 30831809,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\150\\Beaussu.png"
+      }
+    ],
+    "20": [
+      {
+        "itemId": 8109,
+        "itemName": "Greu-Vette",
+        "gfxId": 3088109,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\20\\Greu-Vette.png",
+        "locations": [
+          "Amakna - Champs qui Chantent",
+          "Ereboria - Plage maudite"
+        ]
+      }
+    ],
+    "100": [
+      {
+        "itemId": 19178,
+        "itemName": "Vandame",
+        "gfxId": 3089232,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\100\\Vandame.png",
+        "locations": [
+          "Sufokia - Mines de Sufokia",
+          "Royaume Sadida - Forêt Déforestée"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "itemId": 8106,
+        "itemName": "Poisson Chacha",
+        "gfxId": 3088106,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\5\\Poisson Chacha.png",
+        "locations": [
+          "Astrub - Champs d'Astrub",
+          "Plaines d'Astrub",
+          "Hameau des Pécheurs"
+        ]
+      }
+    ],
+    "125": [
+      {
+        "itemId": 22077,
+        "itemName": "Salamandre",
+        "gfxId": 30820178,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\125\\Salamandre.png",
+        "locations": [
+          "Sommet",
+          "Zinit - Haut Flanc (Blérox)",
+          "Pandalousie - Marais salé"
+        ]
+      }
+    ],
+    "45": [
+      {
+        "itemId": 8115,
+        "itemName": "Perche",
+        "gfxId": 30813192,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\45\\Perche.png",
+        "locations": [
+          "Bonta - Plaines de Cania"
+        ]
+      }
+    ],
+    "110": [
+      {
+        "itemId": 19759,
+        "itemName": "Namo",
+        "gfxId": 30819759,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\110\\Namo.png",
+        "locations": [
+          "Moon - Plage de Moon",
+          "Royaume Sadida - Galeries des Gerbouilles"
+        ]
+      }
+    ],
+    "130": [
+      {
+        "itemId": 27867,
+        "itemName": "Kraivette",
+        "gfxId": 30827867,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\130\\Kraivette.png",
+        "locations": [
+          "Osamosa - Rivage Caudal",
+          "Royaume Chuchoku - Toundra"
+        ]
+      }
+    ],
+    "140": [
+      {
+        "itemId": 28760,
+        "itemName": "Poiss'Hostile",
+        "gfxId": 30828760,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\140\\Poiss'Hostile.png",
+        "locations": [
+          "Shukrute - Citadelle de l'Horreur"
+        ]
+      }
+    ],
+    "75": [
+      {
+        "itemId": 18130,
+        "itemName": "Scincus",
+        "gfxId": 30818130,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\75\\Scincus.png",
+        "locations": [
+          "Île Wabbit - Cawotte ensablée",
+          "Saharach"
+        ]
+      }
+    ],
+    "10": [
+      {
+        "itemId": 8104,
+        "itemName": "Esturgeon",
+        "gfxId": 3088104,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\10\\Esturgeon.png",
+        "locations": [
+          "Tainela",
+          "Astrub - Cimetière d'Astrub"
+        ]
+      }
+    ],
+    "105": [
+      {
+        "itemId": 20178,
+        "itemName": "Mulou de Mer",
+        "gfxId": 3088117,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\105\\Mulou de Mer.png",
+        "locations": [
+          "Bonta - Zone Maritime",
+          "Brakmar - Zone Maritime"
+        ]
+      }
+    ],
+    "120": [
+      {
+        "itemId": 22079,
+        "itemName": "Arête de Poisson",
+        "gfxId": 30818487,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\120\\Arête de Poisson.png",
+        "locations": [
+          "Zinit - Haut Flanc (Sbires de Kali)",
+          "Sommet (Ethernels)",
+          "Pandalousie - Cimetière"
+        ]
+      }
+    ],
+    "25": [
+      {
+        "itemId": 8113,
+        "itemName": "Loute",
+        "gfxId": 3088113,
+        "rarity": 1,
+        "imagePath": "Pêcheur\\25\\Loute.png",
+        "locations": [
+          "Bonta - Fourré de Tonkult",
+          "Île des Wabbits",
+          "Royaume Sadida - Clairière des Mulous",
+          "Ereboria - Plage des Pirates"
+        ]
+      }
+    ]
+  },
+  "Paysan": {
+    "95": [
+      {
+        "itemId": 18481,
+        "itemName": "Tournesol",
+        "gfxId": 3115443,
+        "rarity": 1,
+        "imagePath": "Paysan\\95\\Tournesol.png",
+        "locations": [
+          "Amakna - Champs qui Chantent"
+        ]
+      }
+    ],
+    "50": [
+      {
+        "itemId": 11472,
+        "itemName": "Riz-Légion",
+        "gfxId": 30911469,
+        "rarity": 1,
+        "imagePath": "Paysan\\50\\Riz-Légion.png",
+        "locations": [
+          "Pandalousie - Village des Pandissidans",
+          "Île Wabbit - Territoire Lenald",
+          "Brakmar - Champs Pabong",
+          "Village Lenald"
+        ]
+      }
+    ],
+    "85": [
+      {
+        "itemId": 17369,
+        "itemName": "Cawotte noiwe",
+        "gfxId": 30917369,
+        "rarity": 1,
+        "imagePath": "Paysan\\85\\Cawotte noiwe.png",
+        "locations": [
+          "Île des Wabbits - Souterrains morbides"
+        ]
+      }
+    ],
+    "130": [
+      {
+        "itemId": 27852,
+        "itemName": "Canneberge glacée",
+        "gfxId": 30927852,
+        "rarity": 1,
+        "imagePath": "Paysan\\130\\Canneberge glacée.png",
+        "locations": [
+          "Osamosa - Aile Glaciaire",
+          "Royaume Chuchoku - Toundra"
+        ]
+      }
+    ],
+    "40": [
+      {
+        "itemId": 11467,
+        "itemName": "Fibre de Seigle",
+        "gfxId": 30911467,
+        "rarity": 1,
+        "imagePath": "Paysan\\40\\Fibre de Seigle.png",
+        "locations": [
+          "Bonta - Plaines de Cania",
+          "Royaume Sadida - Clairière des Mulous",
+          "Île aux Moines"
+        ]
+      }
+    ],
+    "155": [
+      {
+        "itemId": 31817,
+        "itemName": "Racine grouilleuse",
+        "gfxId": 30931817,
+        "rarity": 1,
+        "imagePath": "Paysan\\155\\Racine grouilleuse.png"
+      }
+    ],
+    "145": [
+      {
+        "itemId": 28748,
+        "itemName": "Haricot maléfique",
+        "gfxId": 30928748,
+        "rarity": 1,
+        "imagePath": "Paysan\\145\\Haricot maléfique.png",
+        "locations": [
+          "Shukrute - Démentia"
+        ]
+      }
+    ],
+    "90": [
+      {
+        "itemId": 18479,
+        "itemName": "Chou-Chou",
+        "gfxId": 30911472,
+        "rarity": 1,
+        "imagePath": "Paysan\\90\\Chou-Chou.png",
+        "locations": [
+          "Île Sberg - Village Enseveli Enseveli"
+        ]
+      }
+    ],
+    "70": [
+      {
+        "itemId": 9805,
+        "itemName": "Fayot",
+        "gfxId": 3118288,
+        "rarity": 1,
+        "imagePath": "Paysan\\70\\Fayot.png",
+        "locations": [
+          "Zinit - Bas Flanc"
+        ]
+      }
+    ],
+    "25": [
+      {
+        "itemId": 1902,
+        "itemName": "Salace",
+        "gfxId": 30911464,
+        "rarity": 1,
+        "imagePath": "Paysan\\25\\Salace.png",
+        "locations": [
+          "Amakna - Champs qui Chantent"
+        ]
+      }
+    ],
+    "75": [
+      {
+        "itemId": 18115,
+        "itemName": "Truffe du Désert",
+        "gfxId": 30918115,
+        "rarity": 1,
+        "imagePath": "Paysan\\75\\Truffe du Désert.png",
+        "locations": [
+          "Saharach"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "itemId": 1889,
+        "itemName": "Topinambour",
+        "gfxId": 3111889,
+        "rarity": 1,
+        "imagePath": "Paysan\\5\\Topinambour.png",
+        "locations": [
+          "Astrub - Champs d'Astrub"
+        ]
+      }
+    ],
+    "105": [
+      {
+        "itemId": 20187,
+        "itemName": "Citrouille",
+        "gfxId": 3101902,
+        "rarity": 1,
+        "imagePath": "Paysan\\105\\Citrouille.png",
+        "locations": [
+          "Brakmar - Macheville"
+        ]
+      }
+    ],
+    "30": [
+      {
+        "itemId": 11462,
+        "itemName": "Paille d'Avoine",
+        "gfxId": 30911462,
+        "rarity": 1,
+        "imagePath": "Paysan\\30\\Paille d'Avoine.png",
+        "locations": [
+          "Sufokia - Dune Kane"
+        ]
+      }
+    ],
+    "55": [
+      {
+        "itemId": 13163,
+        "itemName": "Makafé d’or",
+        "gfxId": 30918482,
+        "rarity": 1,
+        "imagePath": "Paysan\\55\\Makafé d’or.png",
+        "locations": [
+          "Bilbyza"
+        ]
+      }
+    ],
+    "80": [
+      {
+        "itemId": 18117,
+        "itemName": "Champoule",
+        "gfxId": 30918117,
+        "rarity": 1,
+        "imagePath": "Paysan\\80\\Champoule.png",
+        "locations": [
+          "Saharach - Fungopée"
+        ]
+      }
+    ],
+    "60": [
+      {
+        "itemId": 13166,
+        "itemName": "Pastèque",
+        "gfxId": 31013170,
+        "rarity": 1,
+        "imagePath": "Paysan\\60\\Pastèque.png",
+        "locations": [
+          "Sufokia - Montagne des Flaqueux"
+        ]
+      }
+    ],
+    "15": [
+      {
+        "itemId": 4279,
+        "itemName": "Paille d'Orge",
+        "gfxId": 3101750,
+        "rarity": 1,
+        "imagePath": "Paysan\\15\\Paille d'Orge.png",
+        "locations": [
+          "Astrub - Champs d'Astrub",
+          "Amakna - Donjon Les Champs Pourchan"
+        ]
+      }
+    ],
+    "120": [
+      {
+        "itemId": 22060,
+        "itemName": "Fibre de Mini-Jute",
+        "gfxId": 3125444,
+        "rarity": 1,
+        "imagePath": "Paysan\\120\\Fibre de Mini-Jute.png",
+        "locations": [
+          "Royaume Sadida - Forêt déforestée",
+          "Zinit - Haut Flanc (Sbires de Kali)"
+        ]
+      }
+    ],
+    "20": [
+      {
+        "itemId": 6948,
+        "itemName": "Cawotte",
+        "gfxId": 3116948,
+        "rarity": 1,
+        "imagePath": "Paysan\\20\\Cawotte.png",
+        "locations": [
+          "Amakna - Champs qui Chantent",
+          "Île des Wabbits - Territoire Wabbit"
+        ]
+      }
+    ],
+    "35": [
+      {
+        "itemId": 11464,
+        "itemName": "Melon",
+        "gfxId": 31013166,
+        "rarity": 1,
+        "imagePath": "Paysan\\35\\Melon.png",
+        "locations": [
+          "Sufokia - Dune Kane",
+          "Ereboria - Plage des pirates"
+        ]
+      }
+    ],
+    "45": [
+      {
+        "itemId": 11469,
+        "itemName": "Champignon Marbré",
+        "gfxId": 30920187,
+        "rarity": 1,
+        "imagePath": "Paysan\\45\\Champignon Marbré.png",
+        "locations": [
+          "Bonta - Kara",
+          "Bonta - Plaines de Cania",
+          "Royaume Sadida - Galeries des Gerbouilles",
+          "Ereboria - Caverne des Marteaux-Aigris"
+        ]
+      }
+    ],
+    "0": [
+      {
+        "itemId": 4278,
+        "itemName": "Paille de Blé",
+        "gfxId": 3101752,
+        "rarity": 1,
+        "imagePath": "Paysan\\0\\Paille de Blé.png",
+        "locations": [
+          "Astrub - Champs d'Astrub"
+        ]
+      }
+    ],
+    "110": [
+      {
+        "itemId": 19768,
+        "itemName": "Maniok amer",
+        "gfxId": 30919768,
+        "rarity": 1,
+        "imagePath": "Paysan\\110\\Maniok amer.png",
+        "locations": [
+          "Sous Terrains de l'île de Moon",
+          "Moon - Plage de Moon"
+        ]
+      }
+    ],
+    "65": [
+      {
+        "itemId": 5443,
+        "itemName": "Maïs",
+        "gfxId": 31013163,
+        "rarity": 1,
+        "imagePath": "Paysan\\65\\Maïs.png",
+        "locations": [
+          "Royaume de Chuchoku - Chuchoplaine"
+        ]
+      }
+    ],
+    "140": [
+      {
+        "itemId": 28745,
+        "itemName": "Fruit du démon",
+        "gfxId": 30928745,
+        "rarity": 1,
+        "imagePath": "Paysan\\140\\Fruit du démon.png",
+        "locations": [
+          "Shukrute - Citadelle de l'Horreur"
+        ]
+      }
+    ],
+    "150": [
+      {
+        "itemId": 31814,
+        "itemName": "Sanguiflore",
+        "gfxId": 30931814,
+        "rarity": 1,
+        "imagePath": "Paysan\\150\\Sanguiflore.png"
+      }
+    ],
+    "135": [
+      {
+        "itemId": 27855,
+        "itemName": "Cactousse",
+        "gfxId": 30927855,
+        "rarity": 1,
+        "imagePath": "Paysan\\135\\Cactousse.png",
+        "locations": [
+          "Île des Wabbits - Cawotte ensablée",
+          "Osamosa - Aile Aride",
+          "Saharach"
+        ]
+      }
+    ],
+    "100": [
+      {
+        "itemId": 19174,
+        "itemName": "Fraise",
+        "gfxId": 30918479,
+        "rarity": 1,
+        "imagePath": "Paysan\\100\\Fraise.png",
+        "locations": [
+          "Amakna - Zone Maritime",
+          "Sufokia - Zone Maritime"
+        ]
+      }
+    ],
+    "10": [
+      {
+        "itemId": 9268,
+        "itemName": "Tuberbulbe",
+        "gfxId": 3119268,
+        "rarity": 1,
+        "imagePath": "Paysan\\10\\Tuberbulbe.png",
+        "locations": [
+          "Astrub - Champs d'Astrub"
+        ]
+      }
+    ],
+    "125": [
+      {
+        "itemId": 22063,
+        "itemName": "Piment Tord-Croupion",
+        "gfxId": 2609761,
+        "rarity": 1,
+        "imagePath": "Paysan\\125\\Piment Tord-Croupion.png",
+        "locations": [
+          "Zinit - Haut Flanc (Blérox)",
+          "Royaume Sadida - Forêt déforestée",
+          "Zinit - Sommet (Dragoeufs)"
+        ]
+      }
+    ],
+    "115": [
+      {
+        "itemId": 19764,
+        "itemName": "Palme",
+        "gfxId": 30919764,
+        "rarity": 1,
+        "imagePath": "Paysan\\115\\Palme.png",
+        "locations": [
+          "Pandalousie - Marais salé",
+          "Moon - Plage de Moon"
+        ]
+      }
+    ]
+  },
+  "_unmatched_locations": []
+}
