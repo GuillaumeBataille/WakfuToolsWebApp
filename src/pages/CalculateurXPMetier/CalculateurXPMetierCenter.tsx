@@ -52,8 +52,8 @@ export default function FeatureCenterXp() {
   }
 
   return (
-    <div className="font-content w-full max-w-4xl mx-auto mt-[50px]">
-      <h1 className="font-title text-3xl mb-4">
+    <div className="font-content w-full max-w-4xl mx-auto">
+      <h1 className="font-title text-center text-3xl mb-15">
         XP et ressources par palier (15 → 155) pour {metier}
       </h1>
 

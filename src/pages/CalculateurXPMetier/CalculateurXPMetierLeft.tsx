@@ -6,7 +6,7 @@ export default function CalculateurXPMetierLeft() {
   const rows: LevelRow[] = useMemo(() => generateLevelRows(155), []);
 
   return (
-    <div className="font-content w-full max-w-4xl mx-auto">
+    <div className="font-content w-full max-w-4xl mx-20">
       <h1 className="font-title text-xl mb-4">Tableau des niveaux (0 → 155)</h1>
 
       <div className="rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
