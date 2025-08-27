@@ -4,13 +4,13 @@ import reloadIcon from "../assets/reload-icon.svg?react";
 
 
 const leftElements = [
-  { displayType: "logo", targetType: "route", LogoComponent: homeIcon, to: "/", label: "Home" },
+  { displayType: "logo", targetType: "route", LogoComponent: homeIcon, to: "/WakfuToolsWebApp/", label: "Home" },
   { displayType: "logo", targetType: "action", LogoComponent: reloadIcon, onClick: () => window.location.reload(), label: "Reload" },
   { displayType: "text", targetType: "darkmodeswitcher", label: "Dark Mode" },
 ];
 
 const centerElements = [
-  { displayType: "text", targetType: "route", label: "Calculateur XP Métier", to: "/CalculateurXPMetier" },
+  { displayType: "text", targetType: "route", label: "Calculateur XP Métier", to: "/WakfuToolsWebApp/CalculateurXPMetier" },
   /*{ displayType: "text", targetType: "route", label: "Page de test", to: "/template2" },*/
 ];
 
