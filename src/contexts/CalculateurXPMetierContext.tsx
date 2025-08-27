@@ -25,11 +25,12 @@ export function CalculateurXPMetierProvider({ children }: { children: ReactNode 
 
  
   useEffect(() => {
-    fetch("/WakfuToolsWebApp/WakfuData/data.json")
+    fetch(`${import.meta.env.BASE_URL}WakfuData/data.json`)
       .then((res) => res.json())
       .then(setData)
       .catch((err) => console.error("Erreur lors du chargement des données :", err));
   }, []);
+
 
   const setSelectedItem = (item: any | null) => {
     setSelectedItemState(item);
