@@ -13,7 +13,7 @@ console.log(selectedItem);
       
             {selectedItem.imagePath && (
             <img
-              src={`${selectedItem.imagePath}`}
+              src={`/WakfuToolsWebApp/WakfuData/${selectedItem.imagePath}`}
               alt={selectedItem.itemName}
               className="w-24 h-24 inline-block mr-2"
             />
