@@ -1,14 +1,19 @@
-import Layout from "../components/Layout";
 import React, { ReactNode } from "react";
+import Layout from "../components/Layout";
 
 type ProviderWrapper = (children: ReactNode) => ReactNode;
 
+/**
+ * Factory de page générique
+ */
 export function createPage(
   prefix: string,
-  wrappers: ProviderWrapper[] = [] // tableau de wrappers optionnel
+  wrappers: ProviderWrapper[] = []
 ) {
-  const modules: Record<string, { default: React.ComponentType<any> }> =
-    import.meta.glob("../pages/**/[A-Z]*.{tsx,ts}", { eager: true }) as any;
+  // Importe tous les modules de façon statique
+  const modules = import.meta.glob("../pages/**/[A-Z]*.{tsx,ts}", {
+    eager: true,
+  }) as Record<string, { default: React.ComponentType<any> }>;
 
   const Top = modules[`../pages/${prefix}/${prefix}Top.tsx`]?.default ?? null;
   const Left = modules[`../pages/${prefix}/${prefix}Left.tsx`]?.default ?? null;
@@ -18,14 +23,14 @@ export function createPage(
   return function Page() {
     let content: ReactNode = (
       <Layout
-        top={Top && <Top />}
-        left={Left && <Left />}
-        center={Center && <Center />}
-        right={Right && <Right />}
+        top={Top ? <Top /> : null}
+        left={Left ? <Left /> : null}
+        center={Center ? <Center /> : null}
+        right={Right ? <Right /> : null}
       />
     );
 
-    // appliquer tous les wrappers en ordre
+    // appliquer les wrappers
     wrappers.forEach((wrap) => {
       content = wrap(content);
     });

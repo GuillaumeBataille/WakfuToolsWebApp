@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import DarkModeSwitch from "./DarkmodeSwitch";
+import DarkmodeSwitch from "./DarkmodeSwitch";
 import ThemedIcon from "./ThemedIcon";
 
 type NavBarElementProps = {
@@ -32,7 +32,7 @@ export default function NavBarElement({
 
   switch (targetType) {
     case "darkmodeswitcher":
-      return <DarkModeSwitch />;
+      return <DarkmodeSwitch />;
 
     case "route":
       if (!to) return null;
