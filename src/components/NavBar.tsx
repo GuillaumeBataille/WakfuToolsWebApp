@@ -1,13 +1,10 @@
 import NavBarElement from "./NavBarElement";
-import { useNavigate } from "react-router-dom";
 import homeIcon from "../assets/home-icon.svg?react";
 import reloadIcon from "../assets/reload-icon.svg?react";
 
-const navigate = useNavigate();
 
 const leftElements = [
   { displayType: "logo", targetType: "route", LogoComponent: homeIcon, to: "/WakfuToolsWebApp/", label: "Home" },
-  { displayType: "logo", targetType: "action", LogoComponent: reloadIcon, onClick: () => navigate(0), label: "Reload" },
   { displayType: "text", targetType: "darkmodeswitcher", label: "Dark Mode" },
 ];
 
