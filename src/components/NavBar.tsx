@@ -6,12 +6,12 @@ import reloadIcon from "../assets/reload-icon.svg?react";
 const leftElements = [
   { displayType: "logo", targetType: "route", LogoComponent: homeIcon, to: "/WakfuToolsWebApp/", label: "Home" },
   { displayType: "text", targetType: "darkmodeswitcher", label: "Dark Mode" },
-];
+] as const;
 
 const centerElements = [
   { displayType: "text", targetType: "route", label: "Calculateur XP Métier", to: "/WakfuToolsWebApp/CalculateurXPMetier" },
   /*{ displayType: "text", targetType: "route", label: "Page de test", to: "/template2" },*/
-];
+ ] as const;
 
 export default function NavBar() {
   return (

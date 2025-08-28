@@ -11,10 +11,8 @@ export default function FeatureCenterXp() {
 
  
 
-
-  // Charger ton JSON depuis /public/WakfuData/data.json
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}WakfuData/data.json`)
+    fetch(`${import.meta.env.BASE_URL}WakfuData/data.json`) 
       .then((res) => res.json())
       .then(setData)
       .catch((err) => console.error("Erreur lors du chargement des données :", err));
@@ -53,7 +51,7 @@ export default function FeatureCenterXp() {
   }
 
   return (
-    <div className="font-content w-full max-w-4xl mx-auto">
+    <div className="font-content w-full max-w-4xl mx-auto z-10">
       <h1 className="font-title text-center text-3xl mb-15">
         XP et ressources par palier (15 → 155) pour {metier}
       </h1>
